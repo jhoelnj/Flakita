@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Cumpleaños Mi Flakita</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Feliz Cumpleaños Mi Flakita🧡</h1>
+            <p><b>Te quiero con todo mi corazón. ¡Espero que tengas un día maravilloso!</b></p>
+        </div>
+        <div class="gallery">
+            <div class="carousel-row" id="row1">
+                <div class="photo" style="background-image: url('img/gris1.jpg');" data-caption="Primer momento especial"></div>
+                <div class="photo" style="background-image: url('img/blue1.jpg');" data-caption="Recuerdo azul"></div>
+                <div class="photo" style="background-image: url('img/white1.jpg');" data-caption="Pura alegría"></div>
+                <div class="photo" style="background-image: url('img/green.jpg');" data-caption="Naturaleza y amor"></div>
+            </div>
+            <div class="carousel-row reverse" id="row2">
+                <div class="photo" style="background-image: url('img/black.jpg');" data-caption="Elegancia y estilo"></div>
+                <div class="photo" style="background-image: url('img/white2.jpg');" data-caption="Momentos claros"></div>
+                <div class="photo" style="background-image: url('img/blue2.jpg');" data-caption="Día azul"></div>
+                <div class="photo" style="background-image: url('img/gris2.jpg');" data-caption="Segundo momento especial"></div>
+            </div>
+        </div>
+        <div class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modal-img">
+            <div id="caption"></div>
+        </div>
+        <div class="footer">
+            <p><b>Con mucho amor, Tu niño🫂✨</b></p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+<audio id="backgroundAudio" loop autoplay>
+    <source src="audio/mygirl.mp3" type="audio/mpeg">
+</audio>  
+
+</html>
